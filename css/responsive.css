@@ -1,0 +1,88 @@
+/* Start media screen part design for 980px */
+@media screen and (max-width: 980px){
+    .container{
+        width: 76%;
+        margin: auto;
+        padding-top: 12px;
+    }
+    .logo-area{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login-area{
+        width: 580px;
+        float: none;
+        margin: auto;
+    }
+    .left-area{
+        width: 100%;
+        float: none;
+    }
+    .left-area p{
+        text-align: center;
+    }
+    .left-area img{
+        width: 570px;
+        margin: auto;
+        padding-left: 90px;
+    }
+    .right-area{
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+    }
+    .right-area form{
+        text-align: center;
+    }
+    .topic{
+        color:#777;
+        font-size: 11px;
+        width: 50%;
+        padding-left: 186px;
+
+    }
+}
+/* End media screen part design for 980px */
+
+/* Start media screen part design for 768px */
+@media screen and (max-width: 768px){
+    .login-area form{
+        float: none;
+    }
+    .email-or-phone{
+        width: 100%;
+        float: none;
+    }
+    .password{
+        float: none;
+        width: 100%;
+    }
+    .login-area label{
+        padding-left: 0px;
+    }
+    .password a{
+        padding-left: 0px;
+    }
+    .login input[type="submit"]{
+        margin-left: 0px;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+    }
+    .left-area img {
+        width: 570px;
+        margin: auto;
+        padding-left: 20px;
+    }
+    .topic {
+        color: #777;
+        font-size: 11px;
+        width: 50%;
+        padding-left: 144px;
+    }
+}
+/* End media screen part design for 768px*/
